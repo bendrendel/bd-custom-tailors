@@ -1,3 +1,23 @@
-header {
-    background-color: rgb(194, 194, 194)
+.logo {
+    width: 150px;
+}
+
+header nav {
+    display: inline;
+}
+
+header ul {
+    display: inline;
+}
+
+header li {
+    display: inline;
+}
+
+.hero {
+    background-image: url("../images/hero-image.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
 }
