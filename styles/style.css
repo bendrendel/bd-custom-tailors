@@ -1,3 +1,17 @@
+html {
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+header
+
 .logo {
     width: 150px;
 }
@@ -14,10 +28,25 @@ header li {
     display: inline;
 }
 
+main {
+    text-align: center;
+}
+
 .hero {
     background-image: url("../images/hero-image.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     height: 500px;
+    color: hsla(0, 0%, 100%);
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-container img {
+    width: 200px;
+    height: 300px;
 }
