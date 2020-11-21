@@ -12,6 +12,12 @@ h1 {
 h2 {
     font-size: 2rem;
     font-family: "Arvo", serif;
+    padding-bottom: 50px;
+}
+
+p {
+    font-size: 1rem;
+    font-family: "Lato", sans-serif;
 }
 
 /*Header Styles*/
@@ -19,11 +25,15 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px;
+    padding: 10px 20px;
+    background-color: hsl(12, 25%, 90%);
+    position: fixed;
+    left: 0px;
+    right: 0px;
 }
 
 .logo {
-    width: 150px;
+    width: 75px;
 }
 
 header nav {
@@ -67,18 +77,33 @@ main {
     justify-content: center;
 }
 
-#services {
-    padding: 15% 0;
+#hero div {
+    background-color: hsla(12, 10%, 80%, 70%);
+    padding: 20px 0;
+}
+
+#hero h1 {
+    color: hsl(12, 67%, 29%);
+}
+
+#hero p {
+    color: hsl(12, 15%, 20%);
+    margin-top: 15px;
+    font-size: 1.2rem;
+}
+
+#services, #team {
+    padding-top: 60px;
+    padding-bottom: 100px;
 }
 
 #team {
-    background-color: tan;
-    padding: 15% 0;
+    background-color: hsl(12, 5%, 29%);
 }
 
 .card-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
     font-family: "Lato", sans-serif;
 }
