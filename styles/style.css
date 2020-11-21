@@ -16,6 +16,7 @@ h2 {
 header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .logo {
@@ -34,12 +35,17 @@ header li {
     display: inline;
 }
 
+header a {
+    text-decoration: none;
+    color: black;
+}
+
 /*Main Styles*/
 main {
     text-align: center;
 }
 
-.hero {
+#hero {
     background-image: url("../images/hero-image.jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -49,6 +55,10 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+#team {
+    background-color: tan;
 }
 
 .card-container {
