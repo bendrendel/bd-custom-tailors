@@ -80,3 +80,9 @@ main {
     height: 100%;
     width: auto;
 }
+
+/*Footer Styles*/
+footer {
+    display: flex;
+    justify-content: space-between;
+}
