@@ -1,5 +1,6 @@
 html {
     font-size: 16px;
+    box-sizing: border-box;
 }
 
 h1 {
@@ -10,7 +11,9 @@ h2 {
     font-size: 2rem;
 }
 
-header
+header {
+    margin: 
+}
 
 .logo {
     width: 150px;
@@ -44,9 +47,25 @@ main {
 .card-container {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
-.card-container img {
+.image-container {
     width: 200px;
     height: 300px;
+    overflow: hidden;
+}
+
+.custom-shirts img,
+.custom-suits img,
+.calvin-klein img {
+    width: 100%;
+    height: auto;
+}
+
+.alterations img,
+.ralph-lauren img,
+.giorgio-armani img {
+    height: 100%;
+    width: auto
 }
