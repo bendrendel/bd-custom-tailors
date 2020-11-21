@@ -1,3 +1,4 @@
+/*Page Styles*/
 html {
     font-size: 16px;
     box-sizing: border-box;
@@ -11,9 +12,8 @@ h2 {
     font-size: 2rem;
 }
 
-header {
-    margin: 
-}
+/*Header Styles*/
+
 
 .logo {
     width: 150px;
@@ -31,6 +31,7 @@ header li {
     display: inline;
 }
 
+/*Main Styles*/
 main {
     text-align: center;
 }
@@ -42,12 +43,19 @@ main {
     background-size: cover;
     height: 500px;
     color: hsla(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .card-container {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+}
+
+.card-container figure {
+    margin: 0 5%;
 }
 
 .image-container {
@@ -67,5 +75,5 @@ main {
 .ralph-lauren img,
 .giorgio-armani img {
     height: 100%;
-    width: auto
+    width: auto;
 }
