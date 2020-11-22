@@ -106,7 +106,7 @@ main {
 
 #team {
     background-color: hsl(0, 0%, 90%);
-    color: hsl(12, 15%, 20%)
+    color: hsl(12, 67%, 29%);
 }
 
 .card-container {
@@ -126,7 +126,7 @@ main {
 }
 
 #team .card-container figure:hover {
-    color: hsl(12, 67%, 29%);
+    color: hsl(12, 15%, 20%);
 }
 
 .image-container {
