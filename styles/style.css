@@ -122,11 +122,11 @@ main {
 }
 
 #services .card-container figure:hover {
-    color: hsl(12, 30%, 70%);
+    color: hsl(12, 50%, 65%);
 }
 
 #team .card-container figure:hover {
-    color: hsl(12, 15%, 20%);
+    color: hsl(12, 15%, 45%);
 }
 
 .image-container {
