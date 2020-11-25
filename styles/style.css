@@ -100,13 +100,13 @@ main {
 }
 
 #services {
-    background-color: hsl(157, 5%, 29%);
+    background-color: hsl(12, 55%, 29%);
     color: hsla(0, 0%, 90%, 70%)
 }
 
 #team {
     background-color: hsl(0, 0%, 90%);
-    color: hsl(12, 67%, 29%);
+    color: hsl(12, 15%, 20%);
 }
 
 .card-container {
