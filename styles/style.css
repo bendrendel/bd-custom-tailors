@@ -118,15 +118,17 @@ main {
 
 .card-container figure {
     margin: 35px 70px;
-    transition: color 400ms ease;
+    transition: all 600ms ease;
 }
 
 #services .card-container figure:hover {
     color: hsl(12, 50%, 65%);
+    transform: scale(1.1);
 }
 
 #team .card-container figure:hover {
     color: hsl(12, 15%, 45%);
+    transform: scale(1.1);
 }
 
 .image-container {
